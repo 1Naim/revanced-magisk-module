@@ -10,8 +10,8 @@ integrations-source = "inotia00/revanced-integrations"
 rv-brand = "ReVanced Extended"
 
 [YouTube]
-build-mode = "both"
-excluded-patches = ""
+build-mode = "module"
+excluded-patches = "custom-seekbar-color custom-video-speed enable-tablet-miniplayer enable-wide-searchbar force-vp9-codec header-switch hide-crowdfunding-box hide-mix-playlists "
 included-patches = ""
 version = "auto"
 exclusive-patches = false
