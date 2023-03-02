@@ -3,7 +3,7 @@ compression-level = 9 # compression level for module zips. between 1 and 9
 logging-to-file = true # enables logging of every patch process to a seperate file
 enable-magisk-update = true # set this to false if you do not want to receive updates for the module in magisk app
 parallel-jobs = 3 # max number of concurrent building jobs
-build-mindetach-module = true
+build-mindetach-module = false
 # extended
 patches-source = "inotia00/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
@@ -11,9 +11,9 @@ rv-brand = "ReVanced Extended"
 
 [YouTube]
 build-mode = "both"
-excluded-patches = "custom-seekbar-color custom-video-speed enable-tablet-miniplayer enable-wide-searchbar force-vp9-codec header-switch hide-crowdfunding-box hide-mix-playlists "
-included-patches = "materialyou"
-version = "auto"
+excluded-patches = "custom-seekbar-color custom-video-speed default-video-speed enable-external-browser enable-tablet-miniplayer enable-wide-searchbar force-vp9-codec header-switch hide-autoplay-button hide-mix-playlists layout-switch swipe-controls"
+included-patches = "microg-support"
+version = "18.08.36"
 exclusive-patches = false
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
 
