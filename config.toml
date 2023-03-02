@@ -10,10 +10,10 @@ integrations-source = "inotia00/revanced-integrations"
 rv-brand = "ReVanced Extended"
 
 [YouTube]
-build-mode = "module"
+build-mode = "both"
 excluded-patches = "custom-seekbar-color custom-video-speed enable-tablet-miniplayer enable-wide-searchbar force-vp9-codec header-switch hide-crowdfunding-box hide-mix-playlists "
-included-patches = ""
-version = "18.08.36"
+included-patches = "materialyou"
+version = "auto"
 exclusive-patches = false
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
 
