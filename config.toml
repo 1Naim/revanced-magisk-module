@@ -14,9 +14,8 @@ rv-brand = "ReVanced Extended"
 build-mode = "both"
 excluded-patches = "custom-seekbar-color custom-video-speed default-video-speed disable-haptic-feedback enable-tablet-miniplayer enable-wide-searchbar force-vp9-codec hide-auto-captions hide-autoplay-button hide-captions-button hide-collapse-button hide-comment-component hide-endscreen-cards hide-endscreen-overlay hide-filmstrip-overlay hide-fullscreen-buttoncontainer hide-fullscreen-panels hide-info-cards hide-live-chat-button hide-next-prev-button hide-player-button-background hide-player-overlay-filter hide-seekbar hide-snackbar layout-switch swipe-controls"
 included-patches = "client-spoof custom-branding-icon-afn-red custom-branding-name default-video-quality enable-external-browser enable-minimized-playback enable-old-layout enable-old-quality-layout enable-open-links-directly enable-seekbar-tapping force-premium-heading header-switch hide-auto-player-popup-panels hide-button-container hide-channel-watermark hide-create-button hide-crowdfunding-box hide-flyout-panel hide-general-ads hide-mix-playlists hide-shorts-button hide-shorts-component hide-stories hide-video-ads microg-support optimize-resource overlay-buttons patch-options return-youtube-dislike settings sponsorblock theme"
-version = 18.08.38
+version = "auto"
 dpi = "480dpi"
-arch = "arm64-v8a"
 exclusive-patches = true
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
 
