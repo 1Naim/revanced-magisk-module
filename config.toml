@@ -11,9 +11,9 @@ rv-brand = "ReVanced Extended"
 
 [YouTube]
 build-mode = "both"
-excluded-patches = "custom-seekbar-color custom-video-speed default-video-speed enable-external-browser enable-tablet-miniplayer enable-wide-searchbar force-vp9-codec header-switch hide-autoplay-button hide-mix-playlists layout-switch swipe-controls"
-included-patches = "microg-support"
-version = "18.08.36"
+excluded-patches = "custom-seekbar-color custom-video-speed default-video-speed disable-haptic-feedback enable-tablet-miniplayer enable-wide-searchbar force-vp9-codec hide-auto-captions hide-autoplay-button hide-captions-button hide-collapse-button hide-comment-component hide-mix-playlists hide-endscreen-cards hide-endscreen-overlay hide-filmstrip-overlay hide-fullscreen-buttoncontainer hide-fullscreen-panels hide-info-cards hide-live-chat-button hide-next-prev-button hide-player-button-background hide-player-overlay-filter hide-seekbar hide-snackbar layout-switch swipe-controls"
+included-patches = ""
+version = "auto"
 exclusive-patches = false
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
 
