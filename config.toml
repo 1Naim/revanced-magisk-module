@@ -15,7 +15,6 @@ build-mode = "both"
 excluded-patches = ""
 included-patches = "client-spoof custom-branding-icon-afn-red custom-branding-name default-video-quality enable-external-browser enable-minimized-playback enable-old-layout enable-old-quality-layout enable-open-links-directly enable-seekbar-tapping force-premium-heading header-switch hide-auto-player-popup-panels hide-button-container hide-channel-watermark hide-create-button hide-crowdfunding-box hide-flyout-panel hide-general-ads hide-mix-playlists hide-shorts-button hide-shorts-component hide-stories hide-video-ads microg-support optimize-resource overlay-buttons patch-options return-youtube-dislike settings sponsorblock theme"
 version = "auto"
-dpi = "480dpi"
 exclusive-patches = true
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
 
