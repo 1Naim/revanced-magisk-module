@@ -1,11 +1,12 @@
 logging-to-file = true        # enables logging of every patch process to a seperate file
 enable-magisk-update = true   # set this to false if you do not want to receive updates for the module in magisk app
-build-mindetach-module = true
+build-mindetach-module = false
 
 # add 'enabled = false' for not patching a specific app or remove it from the config
 # see https://github.com/j-hc/revanced-magisk-module/blob/main/CONFIG.md for more detailed explanations
 
 [YouTube]
+enabled = false
 build-mode = "both"                                                   # 'both', 'apk' or 'module'
 excluded-patches = ""                                                 # space-seperated patches to exclude (multiline strings are not supported)
 included-patches = ""                                                 # space-seperated patches to include (non-excluded patches are included by default)
@@ -21,10 +22,12 @@ integrations-source = "inotia00/revanced-integrations"
 rv-brand = "ReVanced Extended"
 build-mode = "both"
 excluded-patches = ""
-included-patches = ""
+included-patches = "client-spoof custom-branding-icon-afn-red custom-branding-name default-video-quality enable-external-browser enable-minimized-playback enable-old-layout enable-old-quality-layout enable-open-links-directly enable-seekbar-tapping force-premium-heading header-switch hide-auto-player-popup-panels hide-button-container hide-channel-watermark hide-create-button hide-crowdfunding-box hide-flyout-panel hide-general-ads hide-mix-playlists hide-video-ads microg-support optimize-resource overlay-buttons patch-options protobuf-spoof return-youtube-dislike settings sponsorblock theme"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
+exclusive-patches = true
 
 [Music]
+enabled = false
 build-mode = "both"
 app-name = "Music"
 excluded-patches = ""
@@ -32,6 +35,7 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
 arch = "both"
 
 [Music-Extended]
+enabled = false
 app-name = "Music"
 patches-source = "inotia00/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
@@ -42,19 +46,23 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
 arch = "both"
 
 [Twitter]
+enabled = false
 build-mode = "apk"
 excluded-patches = "hide-views-stats"
 version = "auto"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/twitter-inc/twitter/"
 
 [Twitch]
+enabled = false
 build-mode = "apk"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/twitch-interactive-inc/twitch/"
 
 [TikTok]
+enabled = false
 apkmirror-dlurl = "https://www.apkmirror.com/apk/tiktok-pte-ltd/tik-tok-including-musical-ly/"
 
 [Reddit]
+enabled = false
 enabled = false
 apkmirror-dlurl = "https://www.apkmirror.com/apk/redditinc/reddit/"
 
